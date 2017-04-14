@@ -1,0 +1,113 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color:#000000;
+    font-family: segoe UI,latha,georgia,sans-serif,Arial,Tahoma;
+}
+
+* {
+    font-family: segoe UI, calibri,Arial,Tahoma;
+}
+
+.tmenu ul {
+    display:block;
+    list-style:line;
+}
+
+.tmenu a {
+    color: #888786;
+    text-decoration: none;
+    padding: 0px 50px 50px 50px;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-top:10px;
+    font-size: 16pt;
+}
+
+.tmenu a:hover, .tmenu span.active {
+    color: #fdfdfd;
+    text-decoration: none;
+    padding: 0px 50px 50px 50px;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-top:10px;
+    font-size: 16pt;
+}
+
+
+ul.tmenu2 li a{display:block;float:left;margin-right:5px;height:50px;
+    overflow:hidden;list-style-image:none;list-style-position:outside;
+    list-style-type:none;margin:0;padding:0;background:none;}
+
+
+/*
+razdelitelnaia polosa ^){display:inline;padding:0 1em;border-right:1px solid #ccc;}
+
+
+overflow:hidden;
+list-style:line;
+white-space:nowrap;
+line-height:normal;
+*/
+
+ul.tmenu a {
+    color: #888786;
+    text-decoration: none;
+    padding: 0px 15px 50px 0px;
+    align-text: bottom;
+    font-size: 16pt;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-top:10px;
+}
+
+ul.atmenu li a {
+    color: #fdfdfd;
+    text-decoration: underline;
+}
+
+ul.rmenu li a {
+    color: #dddddd;
+    text-decoration: none;
+}
+ul.armenu li a, ul.rmenu li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#rightmenucolumn {
+    width: 100%;
+    background-image: url('img/rm_bottom_picture.jpg');
+    background-repeat: no-repeat;
+    bgcolor: #4c4c4c;
+    background-position: 50% 100%;
+}
+
+/*
+width: 220px;
+padding: 6px 10px 4px 10px;
+margin: 0;
+border-top: 1px solid #DEECF0;
+background-image: url(img/main_right_bg.png);
+background-position: 0 0 0 10px;
+background-repeat: no-repeat;
+*/
+
+td#top_left {
+    background-image: url('img/top_left_bg.jpg') repeat-x;
+    background-repeat: x;
+}
+
+#menu_td {
+    width: 260px;
+    background-image: url('img/rm_bottom_picture.png');
+    background-repeat: no-repeat;
+    background-position: 30 0 20 10px;
+}

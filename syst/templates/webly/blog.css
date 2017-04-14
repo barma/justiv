@@ -1,0 +1,50 @@
+.blog-sidebar {
+    width: 245px;
+}
+
+.column-blog {
+    float: right;
+    width: 220px;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-sidebar-separator {
+    padding: 0 10px;
+}
+
+.blog-post .blog-separator {
+    clear: both;
+    border-bottom: 1px solid #DDD;
+    padding-top: 2px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 2px;
+    height: 2px;
+}
+
+.blog-post .blog-comments {
+    float: right;
+    margin: 0 !important;
+    padding: 0 0 4px 0 !important;
+    line-height: 1;
+    font-size: 13px;
+}
+
+.blog-post .blog-date {
+    font-size: 13px;
+    float: left;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+div.paragraph {
+    line-height: 1.5;
+    padding: .5em 0;
+}
+span.tag {
+    padding: 5px;
+    margin: 2px;
+    border-radius: 4px;
+    background: #E7E7E7;
+}

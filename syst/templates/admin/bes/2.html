@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset=""/>
+    <title></title>
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta name='author' content='Zhuikov Barma Stas'/>
+    <meta name='copyright' content='mkirov.ru'/>
+    <link href="style.css" rel='stylesheet' type='text/css'/>
+    <script src="" type="text/javascript"></script>
+    <script type="text/javascript" src="script.js">
+    </script>
+
+</head>
+
+<body>
+
+<table width=100% height=100% border=0 cellpadding=0 cellspacing=0>
+    <tr background="#4a4a4a">
+        <td id='header' colspan=2>
+            <a href='/admin'><img alt="BES.CMS" src='img/logo.png' id='logo'/></a>
+
+            <div id='top_line' style="border:0px solid black">
+                <div id="quickAction">
+                    <select name="quick_action" size="1" id="selector" title="выберите действие">
+                        <option value="f">first var</option>
+                        <option value="s">two var</option>
+                        <option value="t">three var</option>
+                        <option value="f">for var</option>
+                    </select>
+                </div>
+                <a href='/logout.php'><img alt="exit" src='img/exit.png' id='exit'/></a>
+
+                <div id='top_separator'></div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td width=250>
+            <div id='menu'>
+                <style>
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    body {
+                        background: #f0f0f0;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+
+                    .box {
+                        width: 200px;
+                        margin: 10px auto;
+                        background: #fff;
+                        border: 1px solid #d1d1d1;
+                        padding: 4px;
+                        -moz-border-radius: 5px;
+                        -webkit-border-radius: 5px;
+                        -moz-box-shadow: 0px 0px 10px #ddd;
+                        -webkit-box-shadow: 0px 0px 10px #ddd;
+                    }
+
+                    h3 {
+                        -moz-border-radius: 5px;
+                        -webkit-border-radius: 5px;
+                        padding: 5px;
+                        background: -moz-linear-gradient(center top, #efefef 0%, #e0e0e0 100%);
+                        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #efefef), color-stop(1, #e0e0e0));
+                        border: 1px solid #d1d1d1;
+                        color: #c1c1c1;
+                        font-size: 13px;
+                        font-weight: normal;
+                        text-shadow: 1px 1px 0px #fff;
+                    }
+
+                    h3 span {
+                        float: right;
+                        cursor: pointer;
+                    }
+
+                    h3 span:hover {
+                        text-shadow: 0px 0px 3px #a1eeff;
+                    }
+
+                    .box ul {
+                        padding: 5px;
+                        overflow: hidden;
+                    }
+
+                    .box ul li {
+                        font-size: 13px;
+                        list-style-type: square;
+                        list-style-position: inside;
+                        color: #a1a1a1;
+                        padding: 5px;
+                    }
+                </style>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $(".box ul").hide();
+                        $(".box ul li:odd").css("background-color", "#efefef");
+                        $("h3 span").click(function () {
+                            $(this).parent().next().slideToggle();
+                        });
+                    });
+                </script>
+                <div class="box">
+                    <h3><a href='/admin'>Консоль</a></h3>
+                </div>
+                <div class="box">
+                    <h3>Система<span class="expand"><img alt="" src='img/gray_arrow.png'/></span></h3>
+                    <ul>
+                        <li><a href='modules/system/journal/index.php'>Журнал ошибок</a></li>
+                        <li><a href='#'>Настройки</a></li>
+                        <li><a href='modules/filemanager/index.php'>Файловый менеджер</a></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>Модули<span class="expand">+</span></h3>
+                    <ul>
+                        <li><a href='modules/blog/admin/index.php'>Блог</a></li>
+                        <li><a href='modules/banner/admin/index.php'>Баннеры</a></li>
+
+                    </ul>
+                </div>
+                <!--
+                <ul id='list_menu'>
+                <li id='first_element'>
+                    <a href='/admin' class='link_menu'>Консоль</a>
+                    <div>
+                    <a class='arrows'>
+                        <img alt="" src='<?=TP?>img/gray_arrow.png' />
+                    </a>
+                    </div>
+                </li>
+                <li><a href="<?=HN?><?=FC?>modules/system/modules/index.php"
+                       class='link_menu'>Модули
+                    </a>
+                    <div><a class='arrows'>
+                        <img alt="" src='<?=TP?>img/gray_arrow.png' />
+                    </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="<?=HN?><?=FC?>modules/filemanager/index.php"
+                       class='link_menu'>File Manager</a>
+                    <div>
+                    <a class='arrows'>
+                        <img alt="" src='<?=TP?>img/gray_arrow.png' />
+                    </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="<?=HN?>#" class='link_menu'>Настройки</a>
+                    <div>
+                    <a class='arrows'>
+                        <img alt="" src='<?=TP?>img/gray_arrow.png' />
+                    </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="<?=HN?><?=FC?>modules/system/journal/index.php"
+                       class='link_menu'>Система</a>
+                    <div>
+                    <a class='arrows'>
+                        <img alt="" src='<?=TP?>img/gray_arrow.png' />
+                    </a>
+                    </div>
+                </li>
+                </ul>
+                -->
+            </div>
+        </td>
+        <td id=content>
+            <div id='second_menu'>
+                <ul id='second_list_menu'>
+                    <li class='title'></li>
+
+                </ul>
+            </div>
+            <br/><br/><br/><br/>
+
+        </td>
+    </tr>
+    <tr>
+        <td id=footer colspan=2>
+            <div id='bottom_separator'></div>
+            <div id='bottom_logo'></div>
+        </td>
+    </tr>
+</table>
+</body>
+<script type="text/javascript">
+    $(document).ready(
+            function () {
+                // подсветка таблиц-списков
+                $(".list tr").mouseover(function () {
+                    $(this).addClass("over");
+                });
+
+                $(".list tr").mouseout(function () {
+                    $(this).removeClass("over");
+                });
+
+                $(".list tr:even").addClass("alt");
+            }
+    );
+</script>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title></title>
+	<meta name="title" content="" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen, projection" />
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<header id="header">
+		<div class='inhead'></div>
+		<section id="menu">
+ 			<ul>
+				<li><a href='portfolio.php'>портфолио</a><li>
+				<li><a href='blog.php'>блог</a><li>
+				<li><a href='mysels.php'>МоЁ</a><li>	
+			</ul>
+		</section>
+	</header><!-- #header-->
+
+	<section id="middle">
+
+		<div id="container">
+			<div id="content">
+			<h1>Добро пожаловать на мой сайт, товарищ!</h1>
+				<strong>Разработка нового проекта:</strong> Защита бетона от воздействий окружающей среды значительно продлевает 
+				срок службы всей конструкции. Современные средства для защиты бетона предотвращают появление трещин, 
+				препятствует разрушению поверхности. А некоторые специальные составы придают поверхности не только водостойкие, 
+				но и грязеотталкивающие свойства. 
+				Ремонт бетона – это работы по восстановлению разрушенной поверхности бетонных или железобетонных изделий. 
+				Осуществляются с помощью специальных сухих растворов для восстановления бетона, шпатлевок – одно- или 
+				двухкомпонентных. 
+			</div><!-- #content-->
+		</div><!-- #container-->
+
+		<aside id="sideRight">
+		<div style='padding: 10px;'>
+			<strong>Рекмала мать её! :</strong> Защита бетона от воздействий окружающей среды значительно продлевает 
+				срок службы всей конструкции. Современные средства для защиты бетона предотвращают появление трещин, 
+				препятствует разрушению поверхности. А некоторые специальные составы придают поверхности не только водостойкие, 
+				но и грязеотталкивающие свойства. 
+		</div>
+		</aside><!-- #sideRight -->
+
+	</section><!-- #middle-->
+
+</div><!-- #wrapper -->
+
+<footer id="footer">
+</footer><!-- #footer -->
+
+</body>
+</html>

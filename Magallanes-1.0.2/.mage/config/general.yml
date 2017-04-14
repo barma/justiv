@@ -1,0 +1,7 @@
+# global settings
+name: justiv.ru
+email: barma.net@list.ru
+notifications: true
+logging: true
+maxlogs: 30
+ssh_needs_tty: false

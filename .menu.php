@@ -1,0 +1,2 @@
+<?
+Loader::module('shop/showMenu');

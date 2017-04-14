@@ -1,0 +1,24 @@
+actor: Tester
+paths:
+    tests: tests
+    log: tests/_output
+    data: tests/_data
+    helpers: tests/_support
+settings:
+    bootstrap: _bootstrap.php
+    colors: false
+    memory_limit: 1024M
+modules:
+    config:
+            Db:
+                dsn: 'mysql:host=localhost;dbname=justivru_shop'
+                user: 'root'
+                password: '123'
+                dump: tests/_data/dump.sql
+    #            populate: true
+    #            cleanup: true
+    enabled:
+       #- RedirectsHelper module not found
+       - PhpBrowser:
+            url: http://justivru
+       #- \Helper\Acceptance

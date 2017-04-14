@@ -1,0 +1,10 @@
+{
+    "require" : {
+        "mashape/unirest-php" : "^2.6",
+        "sunra/php-simple-html-dom-parser": "v1.5.0",
+        "mnapoli/php-di": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {"Unirest": "lib/"}
+    }
+}

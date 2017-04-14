@@ -1,0 +1,21 @@
+#production
+deployment:
+  user: justivru
+  from: ./../
+  to: /home/j/justivru/justivru/test_public_html
+  excludes:
+releases:
+  enabled: true
+  max: 10
+  symlink: public_html
+  directory: releases
+hosts:
+  justiv.ru:
+    deployment:
+      user:justivru
+tasks:
+  pre-deploy:
+    dbupdate
+  on-deploy:
+  post-release:
+  post-deploy:

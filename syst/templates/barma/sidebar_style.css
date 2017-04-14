@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Tahoma, MS Serif, Trebuchet MS, Georgia, Courier, Tahoma, Verdana, Droid Sans;
+}
+
+html {
+    height: 100%;
+}
+
+header, nav, section, article, aside, footer {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: blue;
+    outline: none;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h1 a {
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 0 0 18px
+}
+
+img {
+    border: none;
+}
+
+input {
+    vertical-align: middle;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+    height: 410px;
+    background: url('img/top.png') no-repeat;
+    background-position: top center;
+}
+
+.inhead {
+    min-height: 150px;
+}
+
+#menu {
+    margin-top: 10px;
+    height: 249px;
+    background: url('img/menu_bg.png') no-repeat;
+}
+
+#menu ul {
+    width: 100%;
+    position: relative;
+    top: 195px;
+    list-style: none;
+}
+
+#menu ul li {
+    padding: 0 13% 0 13%;
+    float: left;
+}
+
+#menu ul li a {
+    color: #000;
+    font-family: Droid Sans;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+    width: 100%;
+    padding: 0 0 200px;
+    height: 1%;
+    position: relative;
+}
+
+#middle:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+#container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+#content {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    margin: 20px 270px 20px 0;
+    background: #e6e6e6;
+    border: 1px solid #c5c5c5;
+    padding: 10px;
+}
+
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+    float: left;
+    margin-right: -3px;
+    width: 250px;
+    margin-left: -250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    background: #E6E6E6;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #C5C5C5;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    width: 1000px;
+    margin: -204px auto 0;
+    height: 204px;
+    background: url('img/bottom.png') no-repeat;
+}
+
+/* BLOG
+-----------------------------------------------------------------------------*/
+.tags {
+    float: left;
+    display: inline;
+}
+
+.tag {
+
+}
+
+.post_date {
+    float: right;
+}

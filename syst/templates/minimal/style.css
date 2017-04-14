@@ -1,0 +1,210 @@
+body, html {
+    height: 100%;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #E1E1E1;
+}
+
+/*menu*/
+#logo {
+    float: left;
+    position: relative;
+    margin-top: 0px;
+}
+#logo a {
+    padding-top: 6px;
+    position: relative;
+    display: block;
+}
+header nav ul {
+    float: right;
+    margin: 0;
+}
+header nav ul li {
+    float: left;
+    list-style: outside none none;
+}
+a:hover {
+    text-decoration: none;
+    /*color: blue;*/
+    color: #57C61E;
+}
+header nav ul li a {
+    color: #333;
+    font-weight: 700;
+    line-height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s ease 0s, background-color 0.3s ease 0s;
+    text-transform: uppercase;
+}
+
+/* выравнивание обещаний о доставке и прочего по центру */
+.policy {
+    text-align: center;
+}
+
+
+.section-header h2 {
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+h3, .section-header h2 {
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+.text-alert, h1, h2, h3, h4, h5, h6, label {
+    font-family: Montserrat,Arial,sans-serif;
+}
+.center {
+    text-align: center;
+}
+.section-header {
+    margin-bottom: 50px;
+}
+.background-color-dark {
+    color: #FFF;
+    background-color: #333;
+}
+.background {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 9;
+}
+
+.bottom-section {
+    color: #ACACAC;
+    background-color: #252525;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+section.background-color-dark {
+    padding: 60px 0;
+    margin-bottom: 50px;
+}
+div.copyright p {
+    padding: 0;
+    margin: 0;
+}
+footer ul li a {
+    color: #ACACAC;
+}
+footer h3 {
+    color: white;
+    font-size: 18px;
+    padding: 10px 0 5px 0;
+}
+.footer-copyright .copyright {
+    float: left;
+}
+.footer-copyright .footer-nav {
+    float: right;
+}
+.footer-copyright {
+    background: #2F2F2F none repeat scroll 0% 0%;
+    color: #898989;
+    font-size: 12px;
+    padding: 15px 0px;
+}
+
+.footer-copyright nav > ul {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    list-style: outside none none;
+}
+.footer-copyright nav > ul > li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.padding-60 {
+    padding: 60px 0;
+}
+.section-header p {
+    color: #898989;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.sectionContent {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.basketSummary {
+    margin: 15px 0;
+}
+.product {
+    width: 22%;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+footer ol, footer ul {
+    margin-bottom: 10px;
+    padding: 0;
+}
+.widget ul li {
+    padding-left: 0px;
+    list-style: outside none none;
+}
+.widget ul > li > a {
+    display: block;
+    height: 100%;
+    padding: 10px 0px;
+}
+.policy .policy-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.policy .policy-icon, .policy .policy-text {
+    display: inline-block;
+    text-align: left;
+}
+.policy .policy-text h4, .policy .policy-text p {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.policy .policy-text p {
+    color: #898989;
+    font-family: Montserrat,Arial,sans-serif;
+}
+.policy-wrapper {
+    padding: 20px 0;
+}
+.social-links li, .payment-system li {
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+ul.social-links {
+    padding-left: 40px;
+}
+.top-menu ul.dropdown-menu {
+    margin-top:-20px;
+}
+ul.dropdown-menu li {
+    float: inherit;
+}
+.top-menu ul.dropdown-menu > li > a {
+    line-height: 1.4;
+    padding: 6px 20px;
+}
+a {
+    outline: none;
+}
+

@@ -1,0 +1,1 @@
+ALTER TABLE `jus_shop_products` ADD `pr_last_modified` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `pi_url`;

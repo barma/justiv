@@ -1,0 +1,2 @@
+<?php
+Loader::library('mvc');

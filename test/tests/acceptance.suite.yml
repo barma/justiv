@@ -1,0 +1,27 @@
+# Codeception Test Suite Configuration
+
+# suite for acceptance tests.
+# perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+class_name: AcceptanceTester
+modules:
+#    enabled:
+#        - Db
+#    config:
+#        - WebDriver:
+#            url: http://justivru
+#            browser: firefox
+  enabled:
+    - Db
+  config:
+    -WebDriver:
+      url: 'http://justivru/'
+      browser: firefox
+
+#  config:
+#    Selenium2:
+#      url: 'http://justivru/'
+#      browser: phantomjs
+#      capabilities:
+#      webStorageEnabled: true
